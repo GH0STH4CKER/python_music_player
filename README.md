@@ -1,5 +1,6 @@
 ### Python Mp3 Player
 <img src='https://img.shields.io/badge/Author-GH0STH4CKER-success?style=flat&logo=github'>
+
 ### Sample Video :
 https://user-images.githubusercontent.com/62290930/144421038-68bc1bea-9d06-4668-a137-e2e732339266.mp4
 
