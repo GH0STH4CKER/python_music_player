@@ -8,4 +8,4 @@ https://user-images.githubusercontent.com/62290930/144421038-68bc1bea-9d06-4668-
 
 <a href='www.youtube.com/channel/UCCKp8UXlGm8frgpY9heHSAg/?sub_confirmation=1'><img src='https://img.shields.io/badge/YouTube%20Channel-FF0000?style=for-the-badge&logo=youtube&logoColor=white'></a>
 
-<img src='https://img.shields.io/badge/OS : Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white'>
+Works on <img src='https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white'>
