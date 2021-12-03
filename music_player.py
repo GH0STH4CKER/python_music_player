@@ -74,31 +74,33 @@ def get_thumb(activemp3) : # Get song thumbnail if exists
 
         return newimg
 
-img0 = Image.open(r"files\oie_trans.gif")
+currdir = os.path.abspath(os.path.curdir)
+
+img0 = Image.open(currdir+"\\files\\oie_trans.gif")
 img0 = img0.resize((256,256), Image.ANTIALIAS)
 coverart = ImageTk.PhotoImage(img0)
 
-img1 = Image.open(r"files\button_black_play.png")
+img1 = Image.open(currdir+"\\files\\button_black_play.png")
 img1 = img1.resize((66,66), Image.ANTIALIAS)
 play_icon = ImageTk.PhotoImage(img1)
 
-img2 = Image.open(r"files\button_black_stop.png")
+img2 = Image.open(currdir+"\\files\\button_black_stop.png")
 img2 = img2.resize((50,50), Image.ANTIALIAS)
 stop_icon = ImageTk.PhotoImage(img2)
 
-img3 = Image.open(r"files\button_black_pause.png")
+img3 = Image.open(currdir+"\\files\\button_black_pause.png")
 img3 = img3.resize((66,66), Image.ANTIALIAS)
 pause_icon = ImageTk.PhotoImage(img3)
 
-img4 = Image.open(r"files\button_black_previous.png")
+img4 = Image.open(currdir+"\\files\\button_black_previous.png")
 img4 = img4.resize((50,50), Image.ANTIALIAS)
 prev_icon = ImageTk.PhotoImage(img4)
 
-img5 = Image.open(r"files\button_black_next.png")
+img5 = Image.open(currdir+"\\files\\button_black_next.png")
 img5 = img5.resize((50,50), Image.ANTIALIAS)
 next_icon = ImageTk.PhotoImage(img5)
 
-img6 = Image.open(r"files\button_black_load.png")
+img6 = Image.open(currdir+"\\files\\button_black_load.png")
 img6 = img6.resize((50,50), Image.ANTIALIAS)
 load_icon = ImageTk.PhotoImage(img6)
 
@@ -142,7 +144,7 @@ def dbl_click(event) :
     marquee_set(song_detail)
     lbl.unload()
     if newimg is None :
-        lbl.load(r'files\mp3animtion256.gif')
+        lbl.load(currdir+'\\files\\mp3animtion256.gif')
     else :
         lbl['image'] = newimg
     pygame.mixer.music.play()
@@ -234,7 +236,7 @@ def play():  # Play/Pause/Unpause song
         marquee_set(song_detail)
         lbl.unload()
         if newimg is None :
-            lbl.load(r'files\mp3animtion256.gif')
+            lbl.load(currdir+'\\files\\mp3animtion256.gif')
         else :
             lbl['image'] = newimg
         pygame.mixer.music.play()
@@ -246,7 +248,7 @@ def play():  # Play/Pause/Unpause song
         pygame.mixer.music.pause() 
         lbl.unload() 
         if newimg is None :
-            lbl.load(r'files\mp3fixed256.gif')
+            lbl.load(currdir+'\\files\\mp3fixed256.gif')
         else :
             lbl['image'] = newimg
         status = 'PAUSED'
@@ -257,7 +259,7 @@ def play():  # Play/Pause/Unpause song
         pygame.mixer.music.unpause()
         lbl.unload()
         if newimg is None :
-            lbl.load(r'files\mp3animtion256.gif')
+            lbl.load(currdir+'\\files\\mp3animtion256.gif')
         else :
             lbl['image'] = newimg
         status = 'UNPAUSED' 
@@ -272,7 +274,7 @@ def play():  # Play/Pause/Unpause song
         marquee_set(song_detail)
         lbl.unload()
         if newimg is None :
-            lbl.load(r'files\mp3animtion256.gif')
+            lbl.load(currdir+'\\files\\mp3animtion256.gif')
         else :
             lbl['image'] = newimg
         pygame.mixer.music.play()
@@ -283,7 +285,7 @@ def play():  # Play/Pause/Unpause song
     
 
 def stop(): # Stop song
-    lbl.load(r'files\mp3fixed256.gif') 
+    lbl.load(currdir+'\\files\\mp3fixed256.gif') 
     Button1['image'] = play_icon
     #####
     global status
@@ -325,7 +327,7 @@ def Next() : # Play next song
 
     lbl.unload()
     if newimg is None :
-        lbl.load(r'files\mp3animtion256.gif')
+        lbl.load(currdir+'\\files\\mp3animtion256.gif')
     else :
         lbl['image'] = newimg
 
@@ -370,7 +372,7 @@ def Prev() : # Play previous song
 
     lbl.unload()
     if newimg is None :
-        lbl.load(r'files\mp3animtion256.gif') 
+        lbl.load(currdir+'\\files\\mp3animtion256.gif') 
     else :
         lbl['image'] = newimg
 
@@ -417,7 +419,7 @@ class ImageLabel(tkr.Button): # Playing Gif animation
 
 lbl = ImageLabel(Frame0,width=256,height=256,highlightthickness=0,relief=FLAT,bd=0,bg=widgetcolor)
 lbl.grid(row=1,padx=10)
-lbl.load(r'files\mp3fixed256.gif') 
+lbl.load(currdir+'\\files\\mp3fixed256.gif') 
 
 
 #Button0 = tkr.Button(Frame0, text="",image=coverart,highlightthickness=0,relief=FLAT,bd=0)
