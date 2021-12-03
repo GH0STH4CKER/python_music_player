@@ -9,3 +9,8 @@ python versions :</br><a href='https://www.python.org/downloads/release/python-3
 Supporting OS : </br><img src='https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white'>
   
 Subscribe :</br> <a href='www.youtube.com/channel/UCCKp8UXlGm8frgpY9heHSAg/?sub_confirmation=1'><img src='https://img.shields.io/badge/YouTube%20Channel-FF0000?style=for-the-badge&logo=youtube&logoColor=white'></a>
+
+Contact Me :</br>
+<a href='http://t.me/Dimuth92'><img src='https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white'></a>
+<a href='http://m.me/dimuth92'><img src='https://img.shields.io/badge/Messenger-00B2FF?style=for-the-badge&logo=messenger&logoColor=white'></a>
+<a href='mailto:dimuthsakya@protonmail.com'><img src='https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white'></a>
