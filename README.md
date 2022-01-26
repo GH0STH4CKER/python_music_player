@@ -3,6 +3,7 @@
 
 <img src='https://img.shields.io/badge/Critical%20Vulnerability%20-%20Pillow%20<%209.00-red' alt='critical Badge'>
  To fix that Upgrade Pillow to version 9.0.0 or later. For example:
+ 
 ```
 Pillow>=9.0.0
 ```
