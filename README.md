@@ -1,9 +1,11 @@
 ### Python Mp3 Player
 <img src='https://img.shields.io/badge/Author-GH0STH4CKER-success?style=flat&logo=github'>
 
-<img src='https://img.shields.io/badge/Critical-Vulnerability%20in%20Pillow-red' alt='critical Badge'>
-> Upgrade Pillow to  version 9.0.0 or later. For example:
-```Pillow>=9.0.0```
+<img src='https://img.shields.io/badge/Critical%20Vulnerability%20-%20Pillow%20<%209.00-red' alt='critical Badge'>
+ To fix that Upgrade Pillow to version 9.0.0 or later. For example:
+```
+Pillow>=9.0.0
+```
 
 ### Sample Video :
 https://user-images.githubusercontent.com/62290930/144421038-68bc1bea-9d06-4668-a137-e2e732339266.mp4
