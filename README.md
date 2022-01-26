@@ -2,7 +2,7 @@
 <img src='https://img.shields.io/badge/Author-GH0STH4CKER-success?style=flat&logo=github'>
 
 <img src='https://img.shields.io/badge/Critical-Vulnerability%20in%20Pillow-red' alt='critical Badge'>
-Upgrade Pillow to  version 9.0.0 or later. For example:
+> Upgrade Pillow to  version 9.0.0 or later. For example:
 ```Pillow>=9.0.0```
 
 ### Sample Video :
