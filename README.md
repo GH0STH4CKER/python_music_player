@@ -1,7 +1,7 @@
 ### Python Mp3 Player
 <img src='https://img.shields.io/badge/Author-GH0STH4CKER-success?style=flat&logo=github'>
 
-<img src='https://img.shields.io/badge/Critical%20Vulnerability%20-%20Pillow%20<%209.0.0-Yellow' alt='Warning Badge'>
+<img src='https://img.shields.io/badge/Vulnerability%20fixed%20in-%20Pillow%20>%209.0.0-blue' alt='Warning Badge'>
 
 ### Sample Video :
 https://user-images.githubusercontent.com/62290930/144421038-68bc1bea-9d06-4668-a137-e2e732339266.mp4
